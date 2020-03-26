@@ -1,2 +1,34 @@
-# TA-GetNetAdapter
-Basic scripted input for the PowerShell command Get-NetAdapter
+# README.txt
+
+# TA-GetNetAdaptor
+### Description
+Executes a powershell script to pull in the interface status of the server. 
+
+### Installation/Platform
+Splunk 8.0.2 tested
+
+Create an index
+Set index on inputs.conf
+Set interval you want to collect in inputs.conf
+Tune Timezone another elements as needed in props.conf
+Install on Universal Forwarders, restart (eventbreaker needs set)
+Install on Heavy Forwarders, restart.(props.conf needs work)
+Install on Indexers, restart.  (props.conf needs work)
+Not needed on a search heads (no search time knowledge in version 1.0.0)
+
+### Usage
+New new tags or eventtypes are added. 
+
+### History
+3.13.2020.1 - daniel, initial version
+
+### Credits
+Daniel Wilson <daniel.p.wilson@live.com>
+
+### License
+None
+
+### TO DO/BUGS
+1) CIM fields 
+2) props.conf is kinda sad and needs work
+3) tags for OS and configs needed. 
