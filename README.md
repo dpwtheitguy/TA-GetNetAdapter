@@ -20,7 +20,7 @@ Not needed on a search heads (no search time knowledge in version 1.0.0)
 New new tags or eventtypes are added. 
 
 ### History
-3.13.2020.1 - daniel, initial version
+3.13.2020.1 - daniel, 1.0.0 initial version
 
 ### Credits
 Daniel Wilson <daniel.p.wilson@live.com>
