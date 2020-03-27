@@ -30,6 +30,4 @@ Daniel Wilson <daniel.p.wilson@live.com>
 None
 
 ### TO DO/BUGS
-1) CIM fields 
-2) props.conf is kinda sad and needs work
-3) tags for OS and configs needed. 
+1) Add visualizations and a way to compare interfaces.
