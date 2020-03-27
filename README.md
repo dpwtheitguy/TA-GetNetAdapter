@@ -6,6 +6,7 @@ Executes a powershell script to pull in the interface status of the server.
 
 ### Installation/Platform
 Splunk 8.0.2 tested
+Windows 2016 x64 tested
 
 Create an index
 Set index on inputs.conf
